@@ -1,0 +1,33 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: ad01071813dffcc8b1bd6648532668ee9872402728878904995e5cf35a6545b9
+
+name:           hie-error-example
+version:        0.0.0
+build-type:     Simple
+
+executable hie-error-example
+  main-is: Main.hs
+  other-modules:
+      HelloApi
+      State.Internals
+      Paths_hie-error-example
+  hs-source-dirs:
+      src
+  build-depends:
+      aeson
+    , base >=4.7 && <5
+    , containers
+    , regex-tdfa
+    , servant
+    , servant-server
+    , text
+    , transformers
+    , validation
+    , wai
+    , warp
+  default-language: Haskell2010

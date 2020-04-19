@@ -1,0 +1,26 @@
+name: hie-error-example
+
+executables:
+  hie-error-example:
+    main: Main.hs
+    source-dirs: src
+
+dependencies:
+  - base >= 4.7 && < 5
+  - transformers
+  - containers
+  - regex-tdfa
+  - aeson
+  - text
+  - transformers
+  - servant
+  - servant-server
+  - validation
+  - wai
+  - warp
+  - postgresql-simple
+
+  # client stuff
+  # - servant-client
+  # - http-client
+  # - http-types
